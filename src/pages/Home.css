@@ -1,0 +1,16 @@
+.home {
+  padding: 1.5rem;
+}
+
+.home__title {
+  margin: 0 0 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.home__movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
